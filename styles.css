@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #0099cc;
+    color: #fff;
+    padding: 2em 0 1em 0;
+    text-align: center;
+}
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+section {
+    margin-bottom: 2em;
+}
+.about h2, .posts h2, .contact h2 {
+    color: #0099cc;
+    margin-bottom: 0.5em;
+}
+.post {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.post:last-child {
+    border-bottom: none;
+}
+.post img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1em 0;
+}
+.date {
+    display: block;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 0.5em;
+}
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    border-radius: 8px 8px 0 0;
+}
+a {
+    color: #0099cc;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
